@@ -60,7 +60,10 @@
               "projects/e-waste-shell/src/favicon.ico",
               "projects/e-waste-shell/src/assets"
             ],
-            "styles": ["projects/e-waste-shell/src/styles.scss"],
+            "styles": [
+              "projects/shared-styles/src/lib/shared-styles.scss",
+              "projects/e-waste-shell/src/styles.scss"
+            ],
             "scripts": []
           }
         },
@@ -77,7 +80,10 @@
               "projects/e-waste-shell/src/favicon.ico",
               "projects/e-waste-shell/src/assets"
             ],
-            "styles": ["projects/e-waste-shell/src/styles.scss"],
+            "styles": [
+              "projects/shared-styles/src/lib/shared-styles.scss",
+              "projects/e-waste-shell/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {

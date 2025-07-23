@@ -1,2 +1,33 @@
-<h1>Shell Works</h1>
-<router-outlet></router-outlet>
+<div class="ewaste-app">
+  <header class="ewaste-header">
+    <div class="container">
+      <nav class="d-flex justify-between align-center">
+        <div class="logo">E-Waste Management System</div>
+        <div class="d-flex align-center gap-md">
+          <button class="btn btn-ghost" (click)="toggleTheme()">
+            {{ isDarkMode ? "☀️" : "🌙" }}
+          </button>
+          <div class="badge badge-success">Admin Portal</div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <div class="mt-lg">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </main>
+
+  <footer class="ewaste-footer mt-lg">
+    <div class="container">
+      <div class="text-center text-muted p-md">
+        <p>
+          &copy; 2025 E-Waste Management System. Building a sustainable future.
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>

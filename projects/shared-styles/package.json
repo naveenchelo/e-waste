@@ -1,9 +1,18 @@
 {
-  "name": "shared-styles",
-  "version": "0.0.1",
+  "name": "@ewaste/shared-styles",
+  "version": "1.0.0",
+  "description": "Shared styles library for E-Waste management applications",
+  "keywords": [
+    "angular",
+    "styles",
+    "ewaste",
+    "green-theme"
+  ],
+  "author": "E-Waste Team",
+  "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0"
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
