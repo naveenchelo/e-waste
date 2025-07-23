@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/admin',
+    redirectTo: '/dashboard',
     pathMatch: 'full',
   },
   {
@@ -13,8 +13,8 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         remoteName: 'e-waste-admin',
-        exposedModule: './AdminModule',
-      }).then((m) => m.AdminModule),
+        exposedModule: './DashboardModule',
+      }).then((m) => m.DashboardModule),
   },
 ];
 

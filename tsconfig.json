@@ -15,6 +15,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "shared-styles": [
+        "./dist/shared-styles"
+      ]
+    },
     "target": "ES2022",
     "module": "ESNext",
     "useDefineForClassFields": false,

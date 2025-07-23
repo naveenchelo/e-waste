@@ -1,0 +1,160 @@
+<div class="admin-dashboard">
+  <!-- Welcome Section -->
+  <div class="card mb-lg">
+    <div class="card-header">
+      <h2>♻️ Welcome to ScrapKart Admin Dashboard</h2>
+    </div>
+    <div class="card-body">
+      <p>
+        Manage electronic waste collection, processing, and recycling operations
+        efficiently.
+      </p>
+      <div class="d-flex gap-md">
+        <button class="btn btn-primary">📊 View Reports</button>
+        <button class="btn btn-outline">➕ Add Collection Point</button>
+        <button class="btn btn-secondary">📱 Device Catalog</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Cards -->
+  <div class="grid grid-4 mb-lg">
+    <div class="ewaste-stats-card">
+      <div class="stat-number">1,247</div>
+      <div class="stat-label">Devices Collected</div>
+    </div>
+    <div class="ewaste-stats-card">
+      <div class="stat-number">89%</div>
+      <div class="stat-label">Recycling Rate</div>
+    </div>
+    <div class="ewaste-stats-card">
+      <div class="stat-number">156</div>
+      <div class="stat-label">Collection Points</div>
+    </div>
+    <div class="ewaste-stats-card">
+      <div class="stat-number">24.5kg</div>
+      <div class="stat-label">CO₂ Saved</div>
+    </div>
+  </div>
+
+  <!-- Category Management -->
+  <div class="card mb-lg">
+    <div class="card-header">
+      <h3>Device Categories</h3>
+    </div>
+    <div class="card-body">
+      <div class="grid grid-3 gap-md">
+        <div class="ewaste-category">
+          <div class="category-icon electronics">📱</div>
+          <div class="category-details">
+            <div class="category-name">Mobile Devices</div>
+            <div class="category-description">
+              Smartphones, tablets, and accessories
+            </div>
+          </div>
+        </div>
+
+        <div class="ewaste-category">
+          <div class="category-icon appliances">🏠</div>
+          <div class="category-details">
+            <div class="category-name">Home Appliances</div>
+            <div class="category-description">
+              Refrigerators, washing machines, microwaves
+            </div>
+          </div>
+        </div>
+
+        <div class="ewaste-category">
+          <div class="category-icon batteries">🔋</div>
+          <div class="category-details">
+            <div class="category-name">Batteries</div>
+            <div class="category-description">
+              Lithium-ion, lead-acid, and alkaline batteries
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Tracking -->
+  <div class="grid grid-2 mb-lg">
+    <div class="ewaste-progress">
+      <div class="progress-header">
+        <div class="progress-title">Monthly Collection Goal</div>
+        <div class="progress-percentage">67%</div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width]="'67%'"></div>
+      </div>
+    </div>
+
+    <div class="ewaste-progress">
+      <div class="progress-header">
+        <div class="progress-title">Recycling Efficiency</div>
+        <div class="progress-percentage">89%</div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width]="'89%'"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Collections Table -->
+  <div class="card">
+    <div class="card-header">
+      <h3>Recent Collections</h3>
+    </div>
+    <div class="card-body p-0">
+      <table class="ewaste-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Device Type</th>
+            <th>Quantity</th>
+            <th>Location</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025-01-22</td>
+            <td>Smartphones</td>
+            <td>15 units</td>
+            <td>Downtown Center</td>
+            <td><span class="badge badge-success">Processed</span></td>
+          </tr>
+          <tr>
+            <td>2025-01-21</td>
+            <td>Laptops</td>
+            <td>8 units</td>
+            <td>Tech Park</td>
+            <td><span class="badge badge-warning">In Progress</span></td>
+          </tr>
+          <tr>
+            <td>2025-01-20</td>
+            <td>Batteries</td>
+            <td>45 units</td>
+            <td>Mall Collection</td>
+            <td><span class="badge badge-success">Processed</span></td>
+          </tr>
+          <tr>
+            <td>2025-01-19</td>
+            <td>Monitors</td>
+            <td>12 units</td>
+            <td>Office Complex</td>
+            <td><span class="badge badge-info">Collected</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="mt-lg">
+    <div class="alert alert-info">
+      <strong>💡 Tip:</strong> Regular monitoring helps maintain optimal
+      recycling rates and environmental impact.
+    </div>
+  </div>
+</div>
