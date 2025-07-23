@@ -8,6 +8,8 @@ module.exports = withNativeFederation({
 
   exposes: {
     "./AdminModule": "./projects/e-waste-admin/src/app/admin/admin.module.ts",
+    "./DashboardModule":
+      "./projects/e-waste-admin/src/app/features/dashboard/dashboard.module.ts",
   },
 
   shared: {
